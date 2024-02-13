@@ -1,17 +1,21 @@
-import { Redirect, Route, Switch } from 'react-router-dom';
-import './App.css';
-// import Blog from './pages/Blog';
-// import Home from './pages/Home';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <div className='container'>
-      <Switch>
-        {/* <Route path='/' exact component={Home} />
-        <Route path='/blog/:id' component={Blog} /> */}
-        <Redirect to='/' />
-      </Switch>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div>
+              <Hero />
+            </div>
+          }
+        />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
