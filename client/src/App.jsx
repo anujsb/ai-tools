@@ -1,6 +1,8 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import Hero from "./components/Hero";
+import Home from "./pages/Home";
+import Card from "./pages/Card";
 
 const App = () => {
   return (
@@ -10,7 +12,8 @@ const App = () => {
           path="/"
           element={
             <div>
-              <Hero />
+              <Home />
+              <Card />
             </div>
           }
         />
