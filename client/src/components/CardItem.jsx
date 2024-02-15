@@ -11,11 +11,13 @@ const CardItem = ({
     cover,
     category,
     id,
+    link,
   },
 }) => {
   return (
     <div className="flex flex-col blogItem-wrap">   
-      <Link to={`/blog/${id}`}>
+      {/* <Link to={`/blog/${id}`}> */}
+      <Link to={`${link}`}>
         <img className="w-full h-64 object-cover rounded-xl mb-2" src={cover} alt="cover" />
       </Link>
       {/* <img className='blogItem-cover' src={cover} alt='cover' /> */}
@@ -23,14 +25,14 @@ const CardItem = ({
       <h3 className="mb-4">{title}</h3>
       <p className="truncate max-h-16 mb-4">{description}</p>
       <footer className="flex items-center justify-between">
-        <div className="flex items-center">
-          {/* <img src={authorAvatar} alt='avatar' /> */}
+        {/* <div className="flex items-center">
+          <img src={authorAvatar} alt='avatar' />
           <div className="mr-2">
             <h6>Read Further</h6>
             <p>Click on the arrow</p>
           </div>
-        </div>
-        <Link className="text-3xl" to={`/blog/${id}`}>
+        </div> */}
+        <Link className="text-3xl" to={`${link}`}>
           ➝
         </Link>
       </footer>

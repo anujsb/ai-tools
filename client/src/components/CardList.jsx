@@ -2,7 +2,7 @@ import CardItem from './CardItem';
 
 const Cardlist = ({ blogs }) => {
   return (
-    <div className='grid grid-cols-3 gap-12 md:grid-cols-2 sm:grid-cols-1'>
+    <div className='grid lg:grid-cols-4 gap-12 md:grid-cols-3 sm:grid-cols-2'>
       {blogs.map((blog) => (
         <CardItem blog={blog} />
       ))}

@@ -1,19 +1,37 @@
 export const blogList = [
+    // {
+    //   id: 1,
+    //   title: "ChatGpt",
+    //   category: "chatbot",
+    //   subCategory: ["text to text", "speech to text", "LLM"],
+    //   description:
+    //     "ChatGPT is an artificial intelligence (AI) chatbot that uses natural language processing to create humanlike conversational dialogue. The language model can respond to questions and compose various written content, including articles, social media posts, essays, code and emails.",
+    //   SecondPara:
+    //     "In terms of functionality, APIs act as an intermediary layer between an application and a web server. The API process involves a client application initiating a call to retrieve information, with the API handling elements such as a Uniform Resource Identifier (URI), request verb, headers, and, in some cases, a request body. The API then interacts with an external program or web server, transferring the requested information back to the initial application. This uniform process of requests and responses occurs through an API, showcasing its importance in software development.",
+    //   ThirdPara:
+    //     "Unlike User Interfaces (UI), which are designed for human interaction, APIs are tailored for communication between computers or applications. APIs play a central role in modern software development, connecting and transferring data among millions of applications on a daily basis. Their versatility enables applications to exchange data and functionality seamlessly, fostering interoperability among a myriad of products and services. The guide on APIs covers fundamental concepts, common HTTP status codes, and provides a list of popular APIs to enhance applications.",
+    //   authorName: "Read Further",
+    //   authorAvatar: "https://i.postimg.cc/02dwDNk3/download.png",
+    //   createdAt: "June 03, 2021",
+    //   cover: "https://i.postimg.cc/02dwDNk3/download.png",
+    //   link:"https://chat.openai.com/" 
+    // },
     {
       id: 1,
-      title: "Complete Guide to API + Cheatsheet",
-      category: "Application Programming Interface",
-      subCategory: ["Application Programming Interface", "Routing", "Backend"],
+      title: "ChatGpt",
+      category: "chatbot",
+      subCategory: ["text to text", "speech to text", "LLM"],
       description:
-        "An API, or Application Programming Interface, serves as a crucial software interface enabling communication and data exchange between computers or computer programs. Its primary function is to facilitate secure data and functionality exchange among different software applications without necessitating an understanding of their internal workings. Analogously, an API can be likened to a waiter in a restaurant, taking a user's request, communicating it to the system (kitchen), and delivering the response (food) back to the user.",
+        "ChatGPT is an artificial intelligence (AI) chatbot that uses natural language processing to create humanlike conversational dialogue. The language model can respond to questions and compose various written content, including articles, social media posts, essays, code and emails.",
       SecondPara:
         "In terms of functionality, APIs act as an intermediary layer between an application and a web server. The API process involves a client application initiating a call to retrieve information, with the API handling elements such as a Uniform Resource Identifier (URI), request verb, headers, and, in some cases, a request body. The API then interacts with an external program or web server, transferring the requested information back to the initial application. This uniform process of requests and responses occurs through an API, showcasing its importance in software development.",
       ThirdPara:
         "Unlike User Interfaces (UI), which are designed for human interaction, APIs are tailored for communication between computers or applications. APIs play a central role in modern software development, connecting and transferring data among millions of applications on a daily basis. Their versatility enables applications to exchange data and functionality seamlessly, fostering interoperability among a myriad of products and services. The guide on APIs covers fundamental concepts, common HTTP status codes, and provides a list of popular APIs to enhance applications.",
       authorName: "Read Further",
-      authorAvatar: "/assets/images/author.jpg",
+      authorAvatar: "https://i.postimg.cc/02dwDNk3/download.png",
       createdAt: "June 03, 2021",
-      cover: "/assets/resources/resource-1.png",
+      cover: "https://i.postimg.cc/02dwDNk3/download.png",
+      link:"https://chat.openai.com/" 
     },
     {
       id: 2,
