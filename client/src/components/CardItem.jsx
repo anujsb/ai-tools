@@ -1,16 +1,39 @@
-// import BlogItem from './BlogItem';
-// import './styles.css';
+import { Link } from "react-router-dom";
+import Chip from "./common/Chip";
 
-const CardItem = ({ blogs }) => {
+const CardItem = ({
+  blog: {
+    description,
+    title,
+    createdAt,
+    authorName,
+    authorAvatar,
+    cover,
+    category,
+    id,
+  },
+}) => {
   return (
-    <div style={{
-      display: 'grid',
-      gridTemplateColumns: 'repeat(3, 1fr)',
-      gridGap: '3rem',
-    }} className='blogList-wrap'>
-      {blogs.map((blog) => (
-        <BlogItem blog={blog} />
-      ))}
+    <div className="blogItem-wrap">   
+      <Link to={`/blog/${id}`}>
+        <img className="blogItem-cover" src={cover} alt="cover" />
+      </Link>
+      {/* <img className='blogItem-cover' src={cover} alt='cover' /> */}
+      <Chip label={category} />
+      <h3>{title}</h3>
+      <p className="blogItem-desc">{description}</p>
+      <footer>
+        <div className="blogItem-author">
+          {/* <img src={authorAvatar} alt='avatar' /> */}
+          <div>
+            <h6>Read Further</h6>
+            <p>Click on the arrow</p>
+          </div>
+        </div>
+        <Link className="blogItem-link" to={`/blog/${id}`}>
+          ➝
+        </Link>
+      </footer>
     </div>
   );
 };
