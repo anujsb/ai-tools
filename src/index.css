@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid #ff0000; */
+  font-family: "Poppins", sans-serif;
+}
+
+.gradient-underline {
+  display: inline-block;
+  overflow: visible;
+  margin-right: -3rem;
+  margin-bottom: -4rem;
+  margin-left: -3rem;
+  padding-right: 3rem;
+  padding-bottom: 4rem;
+  padding-left: 3rem;
+  background-image: url("https://assets-global.website-files.com/60e5f2de011b86acebc30db7/630a52793591b5ddf26ea695_Jasper%20Art%20Underline.svg");
+  background-position: 50% 50%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.web ::-webkit-scrollbar {
+  display: none;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 5px;
+  background: #6a6a6a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a3a3a3;
+  border-radius: 5px;
+}
+
+.mouse_scroll {
+  position: relative;
+  height: 42px;
+  width: 24px;
+  border: 2px solid #EC5489;
+  border-radius: 40px;
+  margin: -41px auto;
+}
+
+.mouse_scroll::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 10px;
+  width: 4px;
+  background-color: #EC5489;
+  border-radius: 4px;
+  animation: scroll 2s ease-out 1s infinite normal;
+}
+
+.mouse_scroll::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: -26px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+@keyframes scroll {
+  0% {
+    top: 10px;
+  }
+
+  5% {
+    top: 15px;
+  }
+
+  10% {
+    top: 10px;
+  }
+
+  15% {
+    top: 15px;
+  }
+
+  20% {
+    top: 10px;
+  }
+}
