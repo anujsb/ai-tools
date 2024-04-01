@@ -73,7 +73,7 @@ function Header() {
                 }
               }
             }} className="transition-all text-gray-900 font-medium rounded-full" title="Give me a follow">
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300">
+              <a href="https://twitter.com/21bubblesweb" target="_blank" rel="noreferrer" className="block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300">
                 <i className="bx bxl-twitter bx-sm"></i>
               </a>
             </motion.button>

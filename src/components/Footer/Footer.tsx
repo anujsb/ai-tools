@@ -20,14 +20,14 @@ function Footer() {
                                     <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 justify-center items-center lg:justify-end" >
 
                                         <li>
-                                            <a href="https://www.instagram.com" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:opacity-75 dark:text-white" >
+                                            <a href="https://www.instagram.com/21bubbles.web/" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:opacity-75 dark:text-white" >
                                                 <span className="sr-only">Instagram</span>
                                                 <i className="bx bxl-instagram-alt bx-sm"></i>
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="https://twitter.com" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:opacity-75 dark:text-white" >
+                                            <a href="https://twitter.com/21bubblesweb" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:opacity-75 dark:text-white" >
                                                 <span className="sr-only">Twitter</span>
                                                 <i className="bx bxl-twitter bx-sm" ></i>
                                             </a>
