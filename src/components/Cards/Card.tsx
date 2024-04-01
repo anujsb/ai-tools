@@ -8,7 +8,7 @@ const Card = ({ tool }: any) => {
                 initial={{ opacity: 0, y: 90 }}
                 exit={{ opacity: 0 }}
                 whileInView={{ y: 5 }}
-                viewport={{ once: true }} className="max-w-sm max-h-fit bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg dark:bg-zinc-800">
+                viewport={{ once: true }} className="max-w-sm max-h-fit  px-6 pt-6 pb-2 rounded-xl shadow-lg dark:bg-zinc-800 backdrop-filter backdrop-blur-lg">
                 <div className="relative overflow-hidden group rounded-xl">
                     <img className="object-cover rounded-xl h-64 w-full transition duration-500 ease-in-out transform group-hover:scale-105" src={tool.image} alt={tool.name + " banner image"} />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"></div>

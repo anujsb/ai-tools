@@ -93,3 +93,25 @@
     top: 10px;
   }
 }
+
+/* .bg{
+  background-image: linear-gradient(
+  0deg,
+  hsl(58deg 71% 91%) 0%,
+  hsl(58deg 72% 93%) 23%,
+  hsl(57deg 73% 96%) 41%,
+  hsl(57deg 74% 99%) 54%,
+  hsl(45deg 62% 98%) 64%,
+  hsl(45deg 61% 95%) 71%,
+  hsl(46deg 61% 92%) 77%,
+  hsl(46deg 61% 90%) 82%,
+  hsl(47deg 64% 89%) 87%,
+  hsl(48deg 66% 87%) 93%,
+  hsl(49deg 67% 86%) 100%
+);
+} */
+
+.bg{
+  background-color: #f6ecc4;
+background-image: linear-gradient(0deg, #f6ecc4 0%, #f7d4d4 74%);
+}

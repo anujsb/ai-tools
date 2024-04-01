@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Card from "../Cards/Card";
-import AitoolsData from '../../data/Tools.json';
+import AitoolsData from '../../data/anuj-output.json';
 import { motion, AnimatePresence } from "framer-motion";
 
 const Chip: React.FC = () => {
-    const categoryData: string[] = ["All", "Code", "Productivity", "Chatbots", "Generative Art", "AI Detectors", "Video Creation", "Music", "Writing", "Finance", "Fun", "Food"];
+    // const categoryData: string[] = ["All", "Code", "Productivity", "Chatbots", "Generative Art", "AI Detectors", "Video Creation", "Music", "Writing", "Finance", "Fun", "Food","Self-Improvement"];
+    const categoryData: string[] = ["All", "Productivity", "Self-Improvement", "Generative Art", "Marketing", "Speech-To-Text", "Research", "Translation", "Generative Video", "Image Improvement","For Fun", "Prompt Guides", "Aggregators ", "Voice Modulation", "Podcasting", "Chat", "Copywriting", "Social Media", "Text-To-Video", "Video Editing", "Image Scanning"];
     const { tools } = AitoolsData;
     const [onDisplay, setOnDisplay] = useState(tools);
     const [search, setSearch] = useState("");
@@ -36,7 +37,7 @@ const Chip: React.FC = () => {
 
     return (
         <>
-            <div className="relative rounded-xl overflow-auto web mt-20 sm:mt-1">
+            <div className="relative rounded-xl overflow-auto web sm:mt-1  ">
                 <div className="max-w-xl w-full-xl mx-auto min-w-0 dark:highlight-white/5">
                     <motion.div
                         className="overflow-x-auto flex"
@@ -44,7 +45,7 @@ const Chip: React.FC = () => {
                         {categoryData.map((tab: string) => {
                             return (
                                 <div
-                                    className="cursor-pointer flex justify-center items-center m-1 font-medium py-0 px-8 text-center rounded-lg text-slate-900 border border-slate-900 dark:text-slate-50 dark:border-zinc-500 hover:bg-zinc-100 hover:dark:bg-zinc-800"
+                                    className="cursor-pointer flex justify-center items-center m-1 font-medium py-0 px-8 text-center rounded-lg text-slate-900 border border-slate-900 dark:text-slate-50 dark:border-zinc-500 hover:bg-zinc-100 hover:dark:bg-zinc-800 "
                                     key={tab}
                                     onClick={() => handleCategory(tab)}
                                 >
@@ -66,7 +67,7 @@ const Chip: React.FC = () => {
                 {isLoading ? (
                     <p className="text-red-700">Loading...</p>
                 ) : onDisplay.length === 0 ? (
-                    <p className="text-red-700 text-center text-2xl p-7">Tool Not Found <br /> Looks like the Intellitools Team has not added the tool you search for yet</p>
+                    <p className="text-red-700 text-center text-2xl p-7">Tool Not Found <br /> Looks like the 21bubbles Team has not added the tool you search for yet</p>
                 ) : (
                     <motion.div
                         layout

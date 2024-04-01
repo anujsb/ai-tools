@@ -5,7 +5,7 @@ import Hero from './components/Hero/Hero';
 function App() {
   return (
     <>
-      <div className="transition duration-300 ease-in-out dark:bg-zinc-900">
+      <div className="transition duration-300 ease-in-out dark:bg-zinc-900 bg-[#F6ECC4]">
         <Router>
           <Header />
           <Routes>

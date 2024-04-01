@@ -1,0 +1,796 @@
+{
+    "tools": [
+        {
+            "label": "Productivity",
+            "name": "SkimAI",
+            "description": "A tool for email management with summaries, draft responses, and inbox sorting.",
+            "website": "https://skim.page/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65da0f06c2dbb8e7f5055f8f_skim-page-logo.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Techmart AI",
+            "description": "A tool to research nocode projects for efficient development.",
+            "website": "https://chat.jointechmart.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65da0c135e5af715a542c5ad_techmart-logo.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Owwlish",
+            "description": "A tool for online course integration directly onto existing websites.",
+            "website": "https://owwlish.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d83de825bd86c425dd9c2a_oww_ogimage.jpeg",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "BidBuilder",
+            "description": "A tool to crafts personalized Upwork proposals.",
+            "website": "https://www.bidbuilder.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d8dcc2b632c6f3685bbc4e_bidbuilder-ai-logo.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "WeGoDoo",
+            "description": "A tool for team tasks management, assignment, prioritization, and communication.",
+            "website": "https://wegodoo.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bc990300259a1be1ac357f_Universal-miniatura-l8u96d7o.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Keep It Shot",
+            "description": "An MacOS App to automatically organize and indexe screenshots with AI-assisted renaming.",
+            "website": "https://keepitshot.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bbd5495c705d5160403d12_keepitshot-com-logo.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Microsoft SwiftKey",
+            "description": "An Android App for mobile typing with predictive text, swipe typing, and customization.",
+            "website": "https://www.microsoft.com/en-us/swiftkey",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bd5ba467b72a28b1effb4f_RE4wIgI.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Kompas AI",
+            "description": "A platform to deploy AI agents for complex task automation and data analysis.",
+            "website": "https://kompas.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c1c7cb1fb9a232c30dc03e_Icon.a94c900a.svg",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Modelit",
+            "description": "A tool to integrate with knowledge sources for chat, search, and co-writing assistance.",
+            "website": "https://www.modelit.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c1c7d2bbdaf121881245e4_sWLW4Z6XcAPk3ZBRCcBhItilxjc.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "SnapCall",
+            "description": "A tool to integrate video communication and images into customer support for issue resolutions and engagements.",
+            "website": "https://www.snapcall.io/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c413586caaf5e87589db7b_63e53381a93546b4df7a2278_og-image-min.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "WildcardParking.com",
+            "description": "A platform to automate domain parking revenue with customizable templates, ad integration, and DNS control.",
+            "website": "https://wildcardparking.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c2b5640dc78c3fdfb8274b_logo200.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Phew AI Tab",
+            "description": "A browse extension to automatically organize browser tabs into grouped vertical layouts.",
+            "website": "https://phewtab.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c2b56202d10081e7f3a8ec_phew.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Lazy AI",
+            "description": "A platform for creating full-stack applications using prompts and without extensive coding.",
+            "website": "https://www.getlazy.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c4135b20b275f0b3615534_653927aa5cf4e21d2a128eec_cover.jpeg",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Map This",
+            "description": "A tool to convert PDFs into visual mind maps.",
+            "website": "https://www.map-this.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c52015ff9f23506974eb31_map-this-com-logo.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "GPT For Google Forms",
+            "description": "A tool to generate questions and answers for Google Forms.",
+            "website": "https://workspace.google.com/marketplace/app/gpt_for_google_forms_quiz_builder_chatgp/37349114302",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c25f4f9cb4c6505d0783ac_gpt-for-google-forms-logo.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "KardsAI",
+            "description": "An app to convert text into flashcards for learning.",
+            "website": "https://kardsai.app/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c2b563c70b82564b3bead2_share.jpeg",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Nexto",
+            "description": "A Google Chrome Extension to automate task creation from emails and call transcripts.",
+            "website": "https://www.nexto.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c65fa829b5cfe146d1ea9a_nexto-ai-logo.jpeg",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Dola",
+            "description": "A tool to organize and scheduling through natural language conversations.",
+            "website": "https://hidola.ai/en",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c40eac1c1a32fbc44f06d8_apple-icon.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Dorik",
+            "description": "A nocode platform for website building.",
+            "website": "https://dorik.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c413593ad6fcd390a6b4c3_8_3vw6iujc.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Boxletters",
+            "description": "A tool to optimize email management with daily summaries and unsubscribe options.",
+            "website": "https://boxletters.co/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c58bf4a4c32de8766b4815_TiDG8wV9HLjgFY6Xhmz96ArBILI.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Onvo AI",
+            "description": "A SDK to create custom dashboards and data visualizations from multiple data sources.",
+            "website": "https://www.onvo.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cac5fe3a6b394d6eed4e63_logo-light.svg",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Varolio",
+            "description": "A tool to automate sales and account management by centralizing communication.",
+            "website": "https://varolio.io/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cbad2826c81be3fc23f02c_varolio-io-logo.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Productivity",
+            "name": "Bit.ai",
+            "description": "A document collaboration platform for knowledge sharing and management through interactive documents and wikis.",
+            "website": "https://bit.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cac6036c82552a8fc72fbf_656e103cebf49396fbbf9c86_bit-docs-wiki-collaboration-og-image.png",
+            "category": "Productivity"
+        },
+        {
+            "label": "Generative Art",
+            "name": "Creatie",
+            "description": "A tool to automate UI/UX design with editing, idea generation, and design systems.",
+            "website": "https://creatie.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d83de9596db94c973dbfe5_0K4mZfxdjIqW1OgPPoOba8P1tCE.jpeg",
+            "category": "Generative Art"
+        },
+        {
+            "label": "Generative Art",
+            "name": "Logomark AI",
+            "description": "A tool to generate custom logos from prompts.",
+            "website": "https://logomark.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65da0e28320539c0779143ba_logomark-ai-logo.png",
+            "category": "Generative Art"
+        },
+        {
+            "label": "Generative Art",
+            "name": "RenderNet",
+            "description": "A tool to generate customizable AI images with control over face, composition, and multiple models.",
+            "website": "https://rendernet.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d83de5079f4ad5b195db21_og_image_v7.webp",
+            "category": "Generative Art"
+        },
+        {
+            "label": "Generative Art",
+            "name": "Shakker AI",
+            "description": "A platform to transform existing images into new visuals and generate images from prompts.",
+            "website": "https://www.shakker.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bbd19b2722660c97ed5264_shakker-ai-logo.png",
+            "category": "Generative Art"
+        },
+        {
+            "label": "Generative Art",
+            "name": "Paintit.ai",
+            "description": "A tool for interior design visualizations based on user-uploaded room images and styles.",
+            "website": "https://paintit.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bbd03e2722660c97ec0b26_paintit-ai-logo.png",
+            "category": "Generative Art"
+        },
+        {
+            "label": "Generative Art",
+            "name": "StoryNest.ai",
+            "description": "A tool to create interactive novels and stories with conversational characters and convert text to audiobooks.",
+            "website": "https://storynest.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bc99049b8cd0cd53e41a69_https%253A%252F%252Fcbe41600ea8ea3eb7a6846b45f11b28b.cdn.bubble.io%252Ff1685531969334x650766265387754400%252Finteractive.jpeg",
+            "category": "Generative Art"
+        },
+        {
+            "label": "Generative Art",
+            "name": "RunComfy",
+            "description": "A tool to automate the setup of ComfyUI workflows for image and video creation in the cloud.",
+            "website": "https://www.runcomfy.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c27ffbbc6de5c07c719c59_runcomfy-com-logo.png",
+            "category": "Generative Art"
+        },
+        {
+            "label": "Generative Art",
+            "name": "Character Real Time",
+            "description": "A tool to create characters from 3D models.",
+            "website": "https://museclip.ai/characterRealTime",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c3c3f663c531e8b8f62c9a_character-real-time-logo.png",
+            "category": "Generative Art"
+        },
+        {
+            "label": "Self-Improvement",
+            "name": "Vital",
+            "description": "A tool for guided meditations based on preferences and goals.",
+            "website": "https://joinvital.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d83deb6281b1be677c6cbf_X46ncCLWM7c28ESxacG0VEgZ0.png",
+            "category": "Self-Improvement"
+        },
+        {
+            "label": "Self-Improvement",
+            "name": "Anura",
+            "description": "An app to analyze a 30-second video selfie to measure vital signs and wellness indicators.",
+            "website": "https://nuralogix.ai/anura/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d8d490eb01184aaa776fb4_anura-logo.png",
+            "category": "Self-Improvement"
+        },
+        {
+            "label": "Self-Improvement",
+            "name": "Socratic",
+            "description": "An app for students to understand homework and learn subjects with explanations and resources.",
+            "website": "https://socratic.org/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bd5ba2e60892402b656c86_socratic_profile_with_name.png",
+            "category": "Self-Improvement"
+        },
+        {
+            "label": "Self-Improvement",
+            "name": "elsaspeak",
+            "description": "An App for pronunciation coaching to help improve English speaking skills.",
+            "website": "https://elsaspeak.com/en/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bd5ba6942ef03062b30519_thumbnail-elsa-ai.png",
+            "category": "Self-Improvement"
+        },
+        {
+            "label": "Self-Improvement",
+            "name": "MathGPTPro",
+            "description": "A tool to personalize learning experiences with interactive tutoring.",
+            "website": "https://www.info.mathgptpro.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c79de4772f7b7856e75f20_mathgptpro-logo.png",
+            "category": "Self-Improvement"
+        },
+        {
+            "label": "Self-Improvement",
+            "name": "Kippy AI",
+            "description": "An iOS App to practice language skills through realistic conversations and scenarios.",
+            "website": "https://kippy.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cd4f66c8e42f77f298633b_ogimage.en.png",
+            "category": "Self-Improvement"
+        },
+        {
+            "label": "Marketing",
+            "name": "11Sight",
+            "description": "A platform for lead generation, sales optimization, engagement and communication.",
+            "website": "https://www.11sight.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d91547e00cfb24acd4eda1_61f97eb184652804e18b3852_og-v2.png",
+            "category": "Marketing"
+        },
+        {
+            "label": "Marketing",
+            "name": "Verifast",
+            "description": "A tool for digital sales and visitors engagement.",
+            "website": "https://verifast.tech/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65da09bb891f3644d00154b5_verifast-tech-logo1.png",
+            "category": "Marketing"
+        },
+        {
+            "label": "Marketing",
+            "name": "Dottypost",
+            "description": "A tool for websiteedIn content creation and audience growth with templates and scheduling.",
+            "website": "https://www.dottypost.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d83dea5be0f3da6e1a034d_pY7NFFk3oJpppAGxpkXs2Q4TbM.png",
+            "category": "Marketing"
+        },
+        {
+            "label": "Marketing",
+            "name": "EtsyGenerator",
+            "description": "A tool to automate the creation of SEO-optimized titles, descriptions, and tags for Etsy listings.",
+            "website": "https://etsygenerator.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bbd47dbe73bb3b221260eb_etsygenerator-com-logo.jpeg",
+            "category": "Marketing"
+        },
+        {
+            "label": "Marketing",
+            "name": "KeywordSearch",
+            "description": "A tool to refine Google and YouTube ad targeting by automating keyword research and competitor analysis.",
+            "website": "https://www.keywordsearch.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c1297971c7ed68213c9e8b_keywordsearch-com-logo.png",
+            "category": "Marketing"
+        },
+        {
+            "label": "Marketing",
+            "name": "Autowebsite AI",
+            "description": "A platform to automate and optimizes internal websiteing on Webflow sites.",
+            "website": "https://www.autowebsite.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c1c7ce874a96772337f2a6_64f6f28f0b265d76498f3454_autowebsite-og-image.webp",
+            "category": "Marketing"
+        },
+        {
+            "label": "Marketing",
+            "name": "Campaign Assistant",
+            "description": "A tool to generate marketing assets.",
+            "website": "https://www.hubspot.com/campaign-assistant",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bd5eb722fd555c2334817a_Campaign%2520Assistant%2520Tool.png",
+            "category": "Marketing"
+        },
+        {
+            "label": "Marketing",
+            "name": "LOCALBOSS",
+            "description": "An app to manage and improve Google Review presence.",
+            "website": "https://localboss.app/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cbe9e0a5372a0339690982_Group-94.png",
+            "category": "Marketing"
+        },
+        {
+            "label": "Marketing",
+            "name": "MagicAds",
+            "description": "A tool to generate influencer-style video ads from a URL.",
+            "website": "https://www.magicads.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d590217d4eb5afdcb53e08_65a55d6d02e35cce2c06c1af_landing-page.png",
+            "category": "Marketing"
+        },
+        {
+            "label": "Speech-To-Text",
+            "name": "ilisten-ai",
+            "description": "A tool to transcribe and analyze audio content for insights and accessibility.",
+            "website": "https://www.ilisten.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d8db58a77a81f0e8235db7_ilisten-ai-logo.webp",
+            "category": "Speech-To-Text"
+        },
+        {
+            "label": "Speech-To-Text",
+            "name": "AI Phone",
+            "description": "A tool to transcribe calls, summarize, keywords alerts and manage a second number.",
+            "website": "https://www.aiphone.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bbce2f062ee9796c57fe4e_aiphone-ai-logo.png",
+            "category": "Speech-To-Text"
+        },
+        {
+            "label": "AI Detection",
+            "name": "EyePop.ai",
+            "description": "A nocode tool for image and video analysis.",
+            "website": "https://www.eyepop.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d9154b842bc728187ea384_646cd976e45bf35c29907471_websiteedin-blurb.png",
+            "category": "AI Detection"
+        },
+        {
+            "label": "AI Detection",
+            "name": "Content Credentials",
+            "description": "A tool to verify online content, revealing origin and editing history.",
+            "website": "https://contentcredentials.org/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65b9d3366f73a813d5c5fc8c_opengraph.png",
+            "category": "AI Detection"
+        },
+        {
+            "label": "Research",
+            "name": "Hellooo",
+            "description": "A tool to automate user interview analysis by providing transcription, emotional analysis, and pattern identification.",
+            "website": "https://www.hellooo.io/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d91545f69a89f5bf3c72f0_XCafOz1ccYj3aS58GlDaaUxI9oo.png",
+            "category": "Research"
+        },
+        {
+            "label": "Research",
+            "name": "StarterBuild",
+            "description": "A tool to generate reports to help refine and develop business ideas.",
+            "website": "https://starterbuild.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bc98fa30f71e3e34120e9a_https%253A%252F%252Fb31387afee4704325d2a319d3655c5ef.cdn.bubble.io%252Ff1706128404157x489184965152713600%252Flanding%252520page.jpeg",
+            "category": "Research"
+        },
+        {
+            "label": "Research",
+            "name": "CustomerIQ",
+            "description": "A tool to synthesize and analyze customer feedback across multiple channels for products and customer insights.",
+            "website": "https://www.getcustomeriq.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bc9907fe4aa5046d12e4d5_65b1729ed8922d12ce2e8837_Turn%2520customer%2520feedback%2520into%2520value.jpeg",
+            "category": "Research"
+        },
+        {
+            "label": "Research",
+            "name": "Scalescout",
+            "description": "A tool to automate candidate sourcing to match job requirements with top talent.",
+            "website": "https://scalescout.us/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bc99065296414847a07daa_https%253A%252F%252F8ecbba66dd628df6257a75205093372c.cdn.bubble.io%252Ff1700449102153x990995114688961800%252F3D-Render.jpeg",
+            "category": "Research"
+        },
+        {
+            "label": "Research",
+            "name": "AskLegal.bot",
+            "description": "A chatbot for free legal answers to user inquiries.",
+            "website": "https://asklegal.bot/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c3c84bd2df001a4d86e138_asklegal-bot-logo.png",
+            "category": "Research"
+        },
+        {
+            "label": "Research",
+            "name": "Trademark Owl",
+            "description": "A tool for trademark registration and minimizing complications.",
+            "website": "https://trademarkowl.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c694c586c4420338419767_preview-banner.png",
+            "category": "Research"
+        },
+        {
+            "label": "Research",
+            "name": "Pathway",
+            "description": "A Python-based data processing framework optimized for AI applications and integrates with ML libraries.",
+            "website": "https://pathway.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65ca55a31314b77be5852b71_IMG_20240212_225939.jpg",
+            "category": "Research"
+        },
+        {
+            "label": "Research",
+            "name": "Otio",
+            "description": "A tool for research, organizing and writing content.",
+            "website": "https://otio.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d24ced959819d51161219b_padZrqWhLleTn3jUvxUlb2C4eHQ.png",
+            "category": "Research"
+        },
+        {
+            "label": "Translation",
+            "name": "idict",
+            "description": "A tool to translate speech in real-time, supports multilingual dialects/accents, and photo-text translations.",
+            "website": "https://www.idict.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d83dee079f4ad5b195df6b_og.png",
+            "category": "Translation"
+        },
+        {
+            "label": "Generative Video",
+            "name": "Mootion",
+            "description": "A tool to transform text descriptions into 3D animations.",
+            "website": "https://mootion.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65b9d332411d21893ea0302d_landing_open_graph_img.jpeg",
+            "category": "Generative Video"
+        },
+        {
+            "label": "Generative Video",
+            "name": "Koroverse",
+            "description": "A tool to transform photos into a narrated story.",
+            "website": "https://www.koroverse.app/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c52104c6d1de877cd3ba03_koroverse-app-logo.png",
+            "category": "Generative Video"
+        },
+        {
+            "label": "Generative Video",
+            "name": "Augie Storyteller",
+            "description": "A tool to generate custom animated videos and stories.",
+            "website": "https://augxlabs.com/storyteller",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c694c7e46be757488a0d39_wgZ2LyIhpqTZwoC5ES6HcRhtz1c.png",
+            "category": "Generative Video"
+        },
+        {
+            "label": "Generative Video",
+            "name": "Deforum Studio",
+            "description": "A tool to create digital art and graphics.",
+            "website": "https://deforum.studio/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d6358217169964785be51b_deforum-studio-logo.png",
+            "category": "Generative Video"
+        },
+        {
+            "label": "Image Improvement",
+            "name": "Organiser",
+            "description": "An MacOS App for photo management.",
+            "website": "https://organiserapp.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65b9d33a6f73a813d5c60154_apple-touch-icon.png",
+            "category": "Image Improvement"
+        },
+        {
+            "label": "Image Improvement",
+            "name": "Motionleap",
+            "description": "An App to animate still images with effects.",
+            "website": "https://apps.apple.com/us/app/motionleap-by-lightricks/id1381206010",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bd5ba81d579ecd5b214e67_1200x630wa.png",
+            "category": "Image Improvement"
+        },
+        {
+            "label": "Image Improvement",
+            "name": "PixaMotion",
+            "description": "An iOS App to animate still images into live photos, wallpapers, and GIFs.",
+            "website": "https://apps.apple.com/us/app/pixamotion-3d-photo-video-loop/id1461756384",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bd5baa2f7315dafd474916_1200x630wa.png",
+            "category": "Image Improvement"
+        },
+        {
+            "label": "For Fun",
+            "name": "SnappySnail",
+            "description": "A service to write and sends AI-crafted snail mail letters for you.",
+            "website": "https://www.snappysnail.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bc98f8c93888e8efe1e188_9ce3ab_fe5b38b422ff4d55bf5932784f9ca171%257Emv2.png",
+            "category": "For Fun"
+        },
+        {
+            "label": "For Fun",
+            "name": "Color Pop",
+            "description": "An App to transform spoken words into unique coloring pages.",
+            "website": "https://www.mwm.ai/apps/color-pop",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bd5bac0f1c1057b54c1632_64b810990a6581866213ef6e_Frame%25207.jpeg",
+            "category": "For Fun"
+        },
+        {
+            "label": "Prompt Guides",
+            "name": "Quartzite AI",
+            "description": "A Prompt IDE for creation of complex prompts for AI language models.",
+            "website": "https://www.quartzite.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bc990830f71e3e3412198c_metaPreview.jpeg",
+            "category": "Prompt Guides"
+        },
+        {
+            "label": "Aggregators ",
+            "name": "Coursnap",
+            "description": "A platform for YouTube learning by courses summaries, generate subtitles, and note-taking.",
+            "website": "https://coursnap.app/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bd27ace0b847a3ae6bf816_coursnap-app-logo.png",
+            "category": "Aggregators "
+        },
+        {
+            "label": "Aggregators ",
+            "name": "Arc Search",
+            "description": "An ad-free mobile browser for private online searches.",
+            "website": "https://arc.net/blog/arc-search",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bd5bb3d1947b40e6255a49_d272a22251bb800b887ca24d5fa96738cbc58357-2906x1992.png",
+            "category": "Aggregators "
+        },
+        {
+            "label": "Aggregators ",
+            "name": "OSO",
+            "description": "A tool to combine real-time AI search, uncensored chat, and interactive news.",
+            "website": "https://www.oso.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c3c1ccda75a4804e5bf021_oso-ai-logo.png",
+            "category": "Aggregators "
+        },
+        {
+            "label": "Aggregators ",
+            "name": "LLM List",
+            "description": "A tool to compare large language models for diverse applications.",
+            "website": "https://llmmodels.org/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c58bee68fe33799c1dac67_OG.jpgimage.jpeg",
+            "category": "Aggregators "
+        },
+        {
+            "label": "Aggregators ",
+            "name": "AI/ML API",
+            "description": "A platform for accessing over 100 AI models through a single API interface.",
+            "website": "https://www.aimlapi.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65ccdbbee780f41b75446863_aimlapi-com-logo.png",
+            "category": "Aggregators "
+        },
+        {
+            "label": "Aggregators ",
+            "name": "v0 report",
+            "description": "A tool to automatically generate business reports.",
+            "website": "https://v0.report/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d24ce97ffbe50fd7d3923c_header-image.png",
+            "category": "Aggregators "
+        },
+        {
+            "label": "Voice Modulation",
+            "name": "Dolby On",
+            "description": "An App for audio and video recordings in Dolby.",
+            "website": "https://www.dolby.com/apps/dolby-on/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65bfc2707e46fe0c5d041015_dolby-on-logo.png",
+            "category": "Voice Modulation"
+        },
+        {
+            "label": "Podcasting",
+            "name": "Botcast AI",
+            "description": "A tool to transform podcasts into interactive chatbots for audience engagement and insights.",
+            "website": "https://www.botcastai.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c12aa3843129cbefcf1356_botcastai-com-logo.png",
+            "category": "Podcasting"
+        },
+        {
+            "label": "Podcasting",
+            "name": "Podsum",
+            "description": "A tool to generate podcast audio summaries.",
+            "website": "https://podsum.app/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cbabbefa9da2f80fbf3dae_podsum-app-logo.png",
+            "category": "Podcasting"
+        },
+        {
+            "label": "Podcasting",
+            "name": "Podsemble",
+            "description": "A tool for podcast production with research, transcription, content generation, and management.",
+            "website": "https://www.podsemble.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cbac53b09d6208813a9eee_podsemble-com-logo.png",
+            "category": "Podcasting"
+        },
+        {
+            "label": "Chat",
+            "name": "OpenAssistantGPT",
+            "description": "A platform to create and integrate OpenAI-powered chatbots into websites.",
+            "website": "https://www.openassistantgpt.io/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c12bafc6d7f4ce9f90e89d_openassistantgpt-io-logo.png",
+            "category": "Chat"
+        },
+        {
+            "label": "Chat",
+            "name": "Paka AI",
+            "description": "A platform to transform phone systems with conversational bots for improved customer service.",
+            "website": "https://www.paka.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c2b56027a9164340ff3ebb_60e2e9_b0c57ed1a22b41ffab79bda94e74607c%257Emv2.png",
+            "category": "Chat"
+        },
+        {
+            "label": "Chat",
+            "name": "ChatPDF.so",
+            "description": "A tool to interact with and extract information from PDFs conversationally.",
+            "website": "https://www.chatpdf.so/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c524db59a64c83a9bbbf71_chatpdf-so-logo.png",
+            "category": "Chat"
+        },
+        {
+            "label": "Chat",
+            "name": "Supermoon",
+            "description": "A tool to consolidate e-commerce customer support into one platform for communication management.",
+            "website": "https://getsupermoon.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c4135c22262bee5de5a825_logo-OGImage-landscape-630-2x.png",
+            "category": "Chat"
+        },
+        {
+            "label": "Chat",
+            "name": "GOODY-2",
+            "description": "A chatbot for ethical engagement, avoiding controversy and harm.",
+            "website": "https://www.goody2.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cbe9dca3840e1f7639cd9a_social-share.png",
+            "category": "Chat"
+        },
+        {
+            "label": "Chat",
+            "name": "Chat with RTX",
+            "description": "A tool to creates a personalized chatbot from custom data sources using RTX acceleration.",
+            "website": "https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cd4f62e00e4f023310b5f7_chat-with-rtx-bm-l580-d.jpeg",
+            "category": "Chat"
+        },
+        {
+            "label": "Chat",
+            "name": "DeftGPT",
+            "description": "A Google Chrome Extension for content creation and idea generation.",
+            "website": "https://deftgpt.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d3a3ce8c81a54f8f87eeb6_deftgpt-com-logo.png",
+            "category": "Chat"
+        },
+        {
+            "label": "Chat",
+            "name": "Aya",
+            "description": "A platform for advance natural language processing across 101 languages.",
+            "website": "https://cohere.com/research/aya",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cd4f64b6d7237385c5c52d_c35ac199a1f17755367fb2c27bbd9977513af7fc-1800x941.png",
+            "category": "Chat"
+        },
+        {
+            "label": "Copywriting",
+            "name": "Flipner",
+            "description": "A tool to transform notes into structured drafts and polished content in various styles and languages.",
+            "website": "https://www.flipner.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c4135a6caaf5e87589dcdf_6582bb99729189e29e0e104d_flipner.jpeg",
+            "category": "Copywriting"
+        },
+        {
+            "label": "Copywriting",
+            "name": "WriteText.ai",
+            "description": "A tool to generate SEO-friendly product descriptions and meta content for WooCommerce stores.",
+            "website": "https://writetext.ai/woocommerce",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c58bf28d1336fe51ffc830_open-graph-01.jpeg",
+            "category": "Copywriting"
+        },
+        {
+            "label": "Copywriting",
+            "name": "Caption My Photos",
+            "description": "A tool to automate personalized captions generation for photos.",
+            "website": "https://captionmyphotos.com/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c694cc39131eed9bfbbb39_captionmyphotos.png",
+            "category": "Copywriting"
+        },
+        {
+            "label": "Copywriting",
+            "name": "Trinka",
+            "description": "A platform to check writing, grammar, publication standards, and prevent plagiarism.",
+            "website": "https://www.trinka.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d244e0e09e672fa46fe35a_Trinka.jpeg",
+            "category": "Copywriting"
+        },
+        {
+            "label": "Social Media",
+            "name": "Zocket",
+            "description": "A tool to create and deploy social media ads.",
+            "website": "https://zocket.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cac5fb1fd29cc4183006ca_meta_image_zocket.png",
+            "category": "Social Media"
+        },
+        {
+            "label": "Social Media",
+            "name": "PostNitro",
+            "description": "A tool to generate custom social media carousels.",
+            "website": "https://postnitro.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cd4f6844cfd358c031ca0d_postnitro-homepage-facebook.png",
+            "category": "Social Media"
+        },
+        {
+            "label": "Text-To-Video",
+            "name": "aicut",
+            "description": "A tool to convert text into videos for social media.",
+            "website": "https://www.aicut.pro/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65c58bf35dec0f520dbd18e8_og.png",
+            "category": "Text-To-Video"
+        },
+        {
+            "label": "Video Editing",
+            "name": "AutoCut",
+            "description": "An Adobe Premiere Pro plugin to automate silence removal, add animated captions, and other video editing tools.",
+            "website": "https://www.autocut.fr/en/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cac602dd9ad9b0a241b60f_downloadPage-illustration.png",
+            "category": "Video Editing"
+        },
+        {
+            "label": "Image Scanning",
+            "name": "MagiScan",
+            "description": "A mobile app to transform real-world objects into 3D models using a smartphone's camera.",
+            "website": "https://magiscan.app/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65ccd7c8422f6eb295979b63_magiscan-app-logo.png",
+            "category": "Image Scanning"
+        },
+        {
+            "label": "Aggregators ",
+            "name": "v0 report",
+            "description": "A tool to automatically generate business reports.",
+            "website": "https://v0.report/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d24ce97ffbe50fd7d3923c_header-image.png",
+            "category": "Aggregators "
+        },
+        {
+            "label": "Marketing",
+            "name": "MagicAds",
+            "description": "A tool to generate influencer-style video ads from a URL.",
+            "website": "https://www.magicads.ai/",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65d590217d4eb5afdcb53e08_65a55d6d02e35cce2c06c1af_landing-page.png",
+            "category": "Marketing"
+        },
+        {
+            "label": "Chat",
+            "name": "Aya",
+            "description": "A platform for advance natural language processing across 101 languages.",
+            "website": "https://cohere.com/research/aya",
+            "image": "https://assets-global.website-files.com/63994dae1033718bee6949ce/65cd4f64b6d7237385c5c52d_c35ac199a1f17755367fb2c27bbd9977513af7fc-1800x941.png",
+            "category": "Chat"
+        }
+    ]
+}
