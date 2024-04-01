@@ -12,7 +12,7 @@ function Footer() {
                         viewport={{ once: true }} className="mt-8 border-t border-gray-400 pt-8">
                         <div className="sm:flex gap-96 justify-center items-center">
                             <p className="text-sm text-gray-500 flex justify-start gap-6 lg:col-span-5 justify-center items-center lg:justify-end dark:text-white">
-                                &copy; 2023. Intellitools. All rights reserved.
+                                &copy; 2024. 21bubbles. All rights reserved.
                             </p>
 
                             <div className="lg:flex lg:items-start lg:gap-8 mt-5">
