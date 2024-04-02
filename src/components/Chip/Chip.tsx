@@ -40,7 +40,7 @@ const Chip: React.FC = () => {
             <div className="relative rounded-xl overflow-auto web sm:mt-1  ">
                 <div className=" dark:highlight-white/5">
                     <motion.div
-                        className="overflow-x-auto flex"
+                        className="overflow-x-auto flex mx-2"
                     >
                         {categoryData.map((tab: string) => {
                             return (
