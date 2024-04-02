@@ -54,7 +54,7 @@ function Header() {
                   delay: 1.3
                 }
               }
-            }} className="transition-all text-gray-900 font-medium py-2 px-4 rounded-full" title="Star on Github 🙏">
+            }} className="transition-all text-gray-900 font-medium py-2 px-2 rounded-full" title="Star on Github">
               <a href="https://github.com/anujsb/ai-tools" target="_blank" rel="noreferrer" className="block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300">
                 <i className="bx bxl-github bx-sm"></i>
               </a>
@@ -72,9 +72,26 @@ function Header() {
                   delay: 1.6
                 }
               }
-            }} className="transition-all text-gray-900 font-medium rounded-full" title="Give me a follow">
+            }} className="transition-all text-gray-900 font-medium py-2 px-2 rounded-full" title="Give me a follow">
               <a href="https://twitter.com/21bubblesweb" target="_blank" rel="noreferrer" className="block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300">
                 <i className="bx bxl-twitter bx-sm"></i>
+              </a>
+            </motion.button>
+            <motion.button initial="hidden" animate="visible" variants={{
+              hidden: {
+                // scale: .8,
+                opacity: 0
+              },
+              visible: {
+                // scale: .9,
+                opacity: 1,
+                transition: {
+                  delay: 1.6
+                }
+              }
+            }} className="transition-all text-gray-900 font-medium py-2 px-2 rounded-full" title="Give me a follow">
+              <a href="https://twitter.com/21bubblesweb" target="_blank" rel="noreferrer" className="block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300">
+                <i className="bx bx--bxl-linkedin bx-sm"></i>
               </a>
             </motion.button>
           </div>
