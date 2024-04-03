@@ -90,7 +90,7 @@ function Header() {
                 }
               }
             }} className="transition-all text-gray-900 font-medium py-2 px-2 rounded-full" title="Give me a follow">
-              <a href="https://twitter.com/21bubblesweb" target="_blank" rel="noreferrer" className="block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300">
+              <a href="https://www.linkedin.com/company/21bubbles/" target="_blank" rel="noreferrer" className="block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300">
                 <i className="bx bx--bxl-linkedin bx-sm"></i>
               </a>
             </motion.button>
